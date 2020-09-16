@@ -21,7 +21,7 @@ theme = "elate"
     home = "Home"
     work = "Equipa"
     testimonials = "Testimonials"
-    services = "Services"
+    services = "About"
     about = "About"
     contact = "Contact"
 
@@ -81,47 +81,23 @@ theme = "elate"
 
 
   # Work section
-  [params.work]
-    enable = true
-    title = "Equipa"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+  #[params.work]
+  #  enable = true
+  #  title = "Equipa"
+  #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #  footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
-    [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+  #  [[params.work.row]]
+  #    img = "work_1.jpg"
+  #    alt = "Image2"
+  #    title = "Project 1"
+  #    subtitle = "Branding"
 
-    [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+  #  [[params.work.row]]
+  #    img = "work_2.jpg"
+  #    alt = "Image2"
+  #    title = "Project 2"
+  #    subtitle = "Design"
 
   # Testimonials section
   #[params.testimonials]
@@ -153,74 +129,77 @@ theme = "elate"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "About"
+    description = """
+O Núcleo de Física e de Engenharia Física da Faculdade de Ciências da Universidade de Lisboa tem como missão garantir a representação dos estudantes de Física e Engenharia Física na faculdade, bem como permitir uma interação entre os alunos e o departamento.
+"""
 
     [[params.services.item]]
       title = "Física Fora da Academia"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-anchor"
+      description = "O maior evento do núcleo. Um evento que tem como objetivo promover e dar a conheçer ..."
+      icon = "icon-briefcase"
 
     [[params.services.item]]
       title = "Workshops"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-layers2"
+      icon = "icon-chemistry"
+
     [[params.services.item]]
       title = "Mentores"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-video2"
+      icon = "icon-people"
 
-      [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
-      icon = "icon-monitor"
+    [[params.services.item]]
+      title = "titulo"
+      description = "descrição"
+      icon = "icon-people"
 
   # About section
-  [params.about]
-    enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #[params.about]
+  #  enable = true
+  #  title = "About"
+  #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
-    [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
+  #  [[params.about.item]]
+  #    name = "Jean Smith"
+  #    position = "Web Designer"
+  #    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #    img = "person1.jpg"
+  #    alt = "Person1"
+  #    social = [
+  #      ["icon-twitter", "#"],
+  #      ["icon-facebook", "#"],
+  #      ["icon-linkedin", "#"]
+  #    ]
 
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
+  #  [[params.about.item]]
+  #    name = "Rob Smith"
+  #    position = "Web Developer"
+  #    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #    img = "person2.jpg"
+  #    alt = "Person2"
+  #    social = [
+  #      ["icon-twitter", "#"],
+  #      ["icon-facebook", "#"],
+  #      ["icon-github", "#"]
+  #    ]
 
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person3.jpg"
-      alt = "Person3"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-dribbble", "#"]
-      ]      
+  #  [[params.about.item]]
+  #    name = "Larry Ben"
+  #    position = "Web Designer"
+  #    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+  #    img = "person3.jpg"
+  #    alt = "Person3"
+  #    social = [
+  #      ["icon-twitter", "#"],
+  #      ["icon-facebook", "#"],
+  #      ["icon-dribbble", "#"]
+  #    ]      
 
   # Counters section
   [params.counters]
     enable = true
-    title = "Stats"
+    title = "Números"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
@@ -250,17 +229,17 @@ theme = "elate"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contactos"
+    description = "-----------------"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
+        ["icon-home", "R. Ernesto de Vasconcelos C8, 1600-548 Lisboa, Portugal"],
         ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-envelope", "nfef.fcul@gmail.com"],
+        ["icon-globe", '<a href="#" target="_blank">website</a>']
       ]
 
     name = "Name"
@@ -272,9 +251,9 @@ theme = "elate"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = ''
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-facebook", "https://www.facebook.com/NFEFFCUL/"],
+        ["icon-instagram", "https://www.instagram.com/nfeffcul/"],
+        ["icon-linkedin", "https://www.linkedin.com/company/nfef-fcul/"],
       ]
