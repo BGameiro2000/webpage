@@ -1,6 +1,6 @@
 ## NOTAS DO ZÉ:
 # - tenho que cortar as imagens nos projetos para encaixarem lado a lado (nfef trivia)
-# - Available icons: https://simplelineicons.github.io/
+# - Available icons: https://simplelineicons.github.io/
 # - fazer varias about section para cada departamento: direcao, conselho fiscal, assembleia geral, pedagogico, recreativo, imagem - ta separado por comentarios
 # - pessoas tao todas em cima uma das outras n sei pq
 # - links no copyright la em baixo na funcionam
@@ -379,7 +379,7 @@ theme = "elate"
     description = "Dúvidas? Sugestões? Envia-nos um e-mail!"
 
     details = [
-        ["icon-home", "Edíficio C8 Piso 4 Sala ??, 1749-016 Campo Grande, Lisboa, Portugal"],
+        ["icon-home", "Edíficio C8 Piso 4 Sala 17, 1749-016 Campo Grande, Lisboa, Portugal"],
         ["icon-envelope", "nfef@fc.ul.pt"],
       ]
 
