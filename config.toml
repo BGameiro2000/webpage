@@ -1,33 +1,48 @@
-# Page settings
+## NOTAS DO ZÉ:
+# - tenho que cortar as imagens nos projetos para encaixarem lado a lado (nfef trivia)
+# - Available icons: https://simplelineicons.github.io/
+# - fazer varias about section para cada departamento: direcao, conselho fiscal, assembleia geral, pedagogico, recreativo, imagem - ta separado por comentarios
+# - pessoas tao todas em cima uma das outras n sei pq
+# - links no copyright la em baixo na funcionam
+# - nao sei mudar a localizacao no mapa
+# - ja assumi que o email do nucleo era nfef@fc.ul.pt
+# - qual a sala do nucleo pa meter nos contacts
+
+
+# Geral
 title = "NFEF-FCUL"
 languageCode = "pt-pt"
 theme = "elate"
 
+
+# Siga bota lá tratar da página
 [params]
-  
+  # Custom css
   custom_css = ["css/custom1.css", "css/custom2.css"]
 
   # Meta
   author = ""
   description = ""
-  email = ""
+  email = "nfef@fc.ul.pt"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
 
-  # Navigation
+
+  # Navegação
   [params.navigation]
     brand = "NFEF"
-    home = "Home"
-    work = "Equipa"
-    testimonials = "Testimonials"
-    services = "About"
-    about = "About"
-    contact = "Contact"
+    #home = "Home"
+    work = "Eventos"
+    #testimonials = "Testimonials"
+    #services = "Services"
+    about = "Pessoas"
+    counters = "Estatísticas"
+    contact = "Contactos"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
-    
+
     # prepended links
     #[[menu.prepend]]
     #  url = "http://gohugo.io"
@@ -39,40 +54,42 @@ theme = "elate"
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
-  
-  # Hero section
-  [params.hero]
-    title = "O núcleo de estudantes de Física da FCUL"
-    subtitle = 'subtitle'
- 
-  # Intro section
-  # Available icons: https://simplelineicons.github.io/
-  [params.intro]
 
+
+  # Hero
+  [params.hero]
+    title = "Núcleo de Física e Engenharia Física"
+    subtitle = 'Faculdade de Ciências, Universidade de Lisboa'
+
+
+  # Intro
+  [params.intro]
   [[params.intro.item]]
     title = "Quem somos?"
     description = "O NFEF-FCUL é o núcleo de estudantes de Física e Engenharia Física da FCUL. Vem conheçer o teu núcleo!"
     url = "#"
-    button = "About Us"
+    button = "Pessoas"
     icon = "icon-people"
     img = "img_7.jpg"
 
   [[params.intro.item]]
     title = "Recursos"
-    description = "Bancos de Apontamentos, Sites, Grupos, Sevidores...Todos os recursos necessários para os alunos."
+    description = "Aqui encontras todos os recursos que vão complementar o teu estudo durante toda a tua formação universitária."
     url = "#"
-    button = "Click Me"
-    icon = "icon-book-open"
+    button = "Recursos"
+    icon = "icon-vector"
     img = "img_8.jpg"
 
   [[params.intro.item]]
     title = "Eventos"
-    description = "Conheçe os próximos eventos organizados pelo núcleo e entidades associadas. Ou vê os eventos anteriores."
+    description = "Conheçe os próximos eventos organizados pelo núcleo e entidades associadas, ou então vê os eventos passados."
     url = "#"
     button = "Eventos"
     icon = "icon-calendar"
     img = "img_10.jpg"
 
+
+  # Video Section
   #[params.intro.video]
   #  enable = true
   #  title = "Watch the video"
@@ -80,26 +97,33 @@ theme = "elate"
   #  url = ""
 
 
-  # Work section
-  #[params.work]
-  #  enable = true
-  #  title = "Equipa"
-  #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  #  footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+  # Eventos
+  [params.work]
+    enable = true
+    title = "Eventos"
+    description = "Apresentamos aqui todos os eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
+    #footertext = ""
 
-  #  [[params.work.row]]
-  #    img = "work_1.jpg"
-  #    alt = "Image2"
-  #    title = "Project 1"
-  #    subtitle = "Branding"
+    [[params.work.row]]
+      img = "ffa.jpg"
+      alt = "Image2"
+      title = "Física Fora da Academia"
+      subtitle = "Vem ver o que fazem os Físicos fora das universidades!"
 
-  #  [[params.work.row]]
-  #    img = "work_2.jpg"
-  #    alt = "Image2"
-  #    title = "Project 2"
-  #    subtitle = "Design"
+    [[params.work.row]]
+      img = "trivia.png"
+      alt = "Image3"
+      title = "NFEF Trivia"
+      subtitle = "Desafios para além dos problemas apresentados na faculdade."
 
-  # Testimonials section
+    [[params.work.row]]
+      img = "churrasco.jpg"
+      alt = "Image4"
+      title = "Churrasco"
+      subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
+
+
+  # Testemunhos
   #[params.testimonials]
   #  enable = true
   #  title = "Testimonials"
@@ -122,109 +146,229 @@ theme = "elate"
   #    person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
   #    img = "person3.jpg"
   #    alt = "Person3"
-    
-
 
 
   # Services section
-  [params.services]
+  # [params.services]
+  #   enable = true
+  #   title = "Services"
+  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  #
+  #   [[params.services.item]]
+  #     title = "Física Fora da Academia"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  #     icon = "icon-anchor"
+  #
+  #   [[params.services.item]]
+  #     title = "Workshops"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  #     icon = "icon-layers2"
+  #   [[params.services.item]]
+  #     title = "Mentores"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  #     icon = "icon-video2"
+  #
+  #     [[params.services.item]]
+  #     title = "CMS &amp; eCommerce"
+  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+  #     icon = "icon-monitor"
+
+
+  # Pessoas
+  [params.about]
     enable = true
-    title = "About"
-    description = """
-O Núcleo de Física e de Engenharia Física da Faculdade de Ciências da Universidade de Lisboa tem como missão garantir a representação dos estudantes de Física e Engenharia Física na faculdade, bem como permitir uma interação entre os alunos e o departamento.
-"""
+    title = "Pessoas"
+    #description = ""
 
-    [[params.services.item]]
-      title = "Física Fora da Academia"
-      description = "O maior evento do núcleo. Um evento que tem como objetivo promover e dar a conheçer ..."
-      icon = "icon-briefcase"
+    # direcao
+    [[params.about.item]]
+      name = "Rita Pestana"
+      position = "Secretária"
+      #description = ""
+      img = "person1.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-    [[params.services.item]]
-      title = "Workshops"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-chemistry"
+    [[params.about.item]]
+      name = "Rafael Pinto"
+      position = "Tesoureiro"
+      #description = ""
+      img = "person2.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-    [[params.services.item]]
-      title = "Mentores"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-      icon = "icon-people"
+    [[params.about.item]]
+      name = "Rita Reis"
+      position = "Coordenadora do Pedagógico"
+      #description = ""
+      img = "person3.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-    [[params.services.item]]
-      title = "titulo"
-      description = "descrição"
-      icon = "icon-people"
+    [[params.about.item]]
+      name = "Miguel Pinto"
+      position = "Vogal do Pedagógico"
+      #description = ""
+      img = "person1.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-  # About section
-  #[params.about]
-  #  enable = true
-  #  title = "About"
-  #  description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    [[params.about.item]]
+      name = "João Neves"
+      position = "Coordenador da Imagem/Divulgação"
+      #description = ""
+      img = "person2.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-  #  [[params.about.item]]
-  #    name = "Jean Smith"
-  #    position = "Web Designer"
-  #    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-  #    img = "person1.jpg"
-  #    alt = "Person1"
-  #    social = [
-  #      ["icon-twitter", "#"],
-  #      ["icon-facebook", "#"],
-  #      ["icon-linkedin", "#"]
-  #    ]
+    [[params.about.item]]
+      name = "Ariana Dias"
+      position = "Vogal da Imagem/Divulgação"
+      #description = ""
+      img = "person3.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-  #  [[params.about.item]]
-  #    name = "Rob Smith"
-  #    position = "Web Developer"
-  #    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-  #    img = "person2.jpg"
-  #    alt = "Person2"
-  #    social = [
-  #      ["icon-twitter", "#"],
-  #      ["icon-facebook", "#"],
-  #      ["icon-github", "#"]
-  #    ]
+    [[params.about.item]]
+      name = "Ana Benquerença"
+      position = "Coordenador do Recreativo"
+      #description = ""
+      img = "person1.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-  #  [[params.about.item]]
-  #    name = "Larry Ben"
-  #    position = "Web Designer"
-  #    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-  #    img = "person3.jpg"
-  #    alt = "Person3"
-  #    social = [
-  #      ["icon-twitter", "#"],
-  #      ["icon-facebook", "#"],
-  #      ["icon-dribbble", "#"]
-  #    ]      
+    [[params.about.item]]
+      name = "Constança Freire"
+      position = "Vogal do Recreativo"
+      #description = ""
+      img = "person2.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-  # Counters section
+    # conselho fiscal
+    [[params.about.item]]
+      name = "Nuno Taborda"
+      position = "Presidente do Fiscal"
+      #description = ""
+      img = "person3.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "Sílvia Costa"
+      position = "Vice-Presidente do Fiscal"
+      #description = ""
+      img = "person1.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "Gonçalo Fernandes"
+      position = "Secretário do Fiscal"
+      #description = ""
+      img = "person2.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    # assembeleia geral
+    [[params.about.item]]
+      name = "Rui Vieira"
+      position = "Presidente da Mesa"
+      #description = ""
+      img = "person3.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "Inês Caipiro"
+      position = "Vice-Presidente da Mesa"
+      #description = ""
+      img = "person1.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "Diogo Matos"
+      position = "Vogal da Mesa"
+      #description = ""
+      img = "person2.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    # pedagogico
+    [[params.about.item]]
+      name = "Mafalda Nunes"
+      #position = ""
+      #description = ""
+      img = "person3.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "Rodrigo Lopes"
+      #position = ""
+      #description = ""
+      img = "person1.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "Bernardo Gameiro"
+      #position = ""
+      #description = ""
+      img = "person2.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "Eduardo Batista"
+      #position = ""
+      #description = ""
+      img = "person3.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    # recreativo
+    [[params.about.item]]
+      name = "João Belo"
+      #position = ""
+      #description = ""
+      img = "person1.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    # imagem
+    [[params.about.item]]
+      name = "Carolina Felgueiras"
+      #position = ""
+      #description = ""
+      img = "person2.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "José Ferreira"
+      #position = ""
+      #description = ""
+      img = "person3.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+    [[params.about.item]]
+      name = "Ricardo Honório"
+      #position = ""
+      #description = ""
+      img = "person1.jpg"
+      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+
+  # Estatísticas
   [params.counters]
     enable = true
-    title = "Números"
+    title = "Estatísticas"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
       description = "Estudantes"
-      icon = "icon-briefcase"
+      icon = "icon-graduation"
       from = 0
       to = 89
       interval = 50
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
+      description = "Membros"
+      icon = "icon-people"
       from = 0
-      to = 2343409
+      to = 22
       interval = 50
-      speed = 5000
+      speed = 1000
 
     [[params.counters.item]]
       description = "Sócios"
-      icon = "icon-cup"
+      icon = "icon-heart"
       from = 0
-      to = 1302
+      to = 5
       interval = 50
-      speed = 5000
+      speed = 1000
 
   # Contact section
   [params.contact]
@@ -232,21 +376,18 @@ O Núcleo de Física e de Engenharia Física da Faculdade de Ciências da Univer
     map = false
     form = true
     title = "Contactos"
-    description = "-----------------"
-    
-    # Available icons: http://simplelineicons.com/
+    description = "Dúvidas? Sugestões? Envia-nos um e-mail!"
+
     details = [
-        ["icon-home", "R. Ernesto de Vasconcelos C8, 1600-548 Lisboa, Portugal"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "nfef.fcul@gmail.com"],
-        ["icon-globe", '<a href="#" target="_blank">website</a>']
+        ["icon-home", "Edíficio C8 Piso 4 Sala 17, 1749-016 Campo Grande, Lisboa, Portugal"],
+        ["icon-envelope", "nfef@fc.ul.pt"],
       ]
 
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    name = "Nome"
+    email = "E-mail"
+    #phone = "Phone"
+    message = "Mensagem"
+    button = "Enviar Mensagem"
 
   # Footer section
   [params.footer]
