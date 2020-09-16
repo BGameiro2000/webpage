@@ -373,7 +373,7 @@ theme = "elate"
   # Contact section
   [params.contact]
     enable = true
-    map = true
+    map = false
     form = true
     title = "Contactos"
     description = "Dúvidas? Sugestões? Envia-nos um e-mail!"
@@ -392,5 +392,9 @@ theme = "elate"
   # Footer section
   [params.footer]
     enable = true
-    copyright = 'Website construido com <a href="https://gohugo.io/">Hugo</a>, baseado no tema <a href="https://github.com/saey55/hugo-elate-theme">Elate</a>'
-    links = [["icon-facebook", "https://www.facebook.com/NFEFFCUL/"]]
+    copyright = ''
+    links = [
+        ["icon-facebook", "https://www.facebook.com/NFEFFCUL/"],
+        ["icon-instagram", "https://www.instagram.com/nfeffcul/"],
+        ["icon-linkedin", "https://www.linkedin.com/company/nfef-fcul/"],
+      ]
