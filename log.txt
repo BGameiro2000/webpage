@@ -1,0 +1,190 @@
+Building sites … 
+                   | EN  
+-------------------+-----
+  Pages            |  4  
+  Paginator pages  |  0  
+  Non-page files   |  1  
+  Static files     | 79  
+  Processed images |  0  
+  Aliases          |  0  
+  Sitemaps         |  1  
+  Cleaned          |  0  
+
+Built in 306 ms
+Watching for changes in /home/undercover/ze/Projects/webpage/{archetypes,content,data,layouts,static,themes}
+Watching for config changes in /home/undercover/ze/Projects/webpage/config.toml
+Environment: "development"
+Serving pages from memory
+Web Server is available at //localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:39:22.547 +0100
+Rebuilt in 439 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:39:39.544 +0100
+Rebuilt in 467 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:40:55.544 +0100
+Rebuilt in 351 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:41:11.544 +0100
+ERROR 2020/09/16 15:41:11 Failed to reload config:
+
+ERROR 2020/09/16 15:41:11 "/home/undercover/ze/Projects/webpage/config.toml:212:1": unmarshal failed: Near line 212 (last key parsed 'params'): Key 'params.about' has already been defined.
+Rebuilt in 3 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:41:22.544 +0100
+Rebuilt in 547 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:41:48.544 +0100
+Rebuilt in 358 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:42:04.544 +0100
+Rebuilt in 550 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:42:36.544 +0100
+Rebuilt in 498 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:42:52.544 +0100
+Rebuilt in 469 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:43:10.544 +0100
+Rebuilt in 438 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:43:21.544 +0100
+Rebuilt in 285 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:45:11.545 +0100
+Rebuilt in 374 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:45:22.544 +0100
+Rebuilt in 374 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:45:42.544 +0100
+Rebuilt in 248 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:46:06.544 +0100
+Rebuilt in 358 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:46:43.544 +0100
+Rebuilt in 383 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:46:52.544 +0100
+Rebuilt in 388 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:50:31.544 +0100
+Rebuilt in 434 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:54:31.544 +0100
+Rebuilt in 343 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 15:54:51.544 +0100
+Rebuilt in 355 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:00:08.544 +0100
+Rebuilt in 424 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:01:52.544 +0100
+Rebuilt in 369 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:02:07.544 +0100
+Rebuilt in 413 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:05:09.544 +0100
+Rebuilt in 378 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:05:39.544 +0100
+Rebuilt in 483 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:07:51.544 +0100
+Rebuilt in 377 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:09:37.544 +0100
+Rebuilt in 406 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:10:51.544 +0100
+Rebuilt in 524 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:11:31.544 +0100
+Rebuilt in 404 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:12:11.544 +0100
+Rebuilt in 163 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:14:11.544 +0100
+Rebuilt in 433 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:14:55.544 +0100
+Rebuilt in 395 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:15:34.544 +0100
+Rebuilt in 499 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:16:35.544 +0100
+Rebuilt in 137 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:16:58.544 +0100
+Rebuilt in 102 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:17:09.544 +0100
+Rebuilt in 402 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:17:14.544 +0100
+Rebuilt in 553 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:17:57.544 +0100
+Rebuilt in 442 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:20:32.544 +0100
+Rebuilt in 375 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:21:01.544 +0100
+Rebuilt in 315 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:23:31.544 +0100
+Rebuilt in 486 ms
+
+Change of config file detected, rebuilding site.
+2020-09-16 16:23:50.544 +0100
+Rebuilt in 187 ms
