@@ -11,6 +11,7 @@
 
 # Geral
 title = "NFEF-FCUL"
+baseurl = "/"
 languageCode = "pt-pt"
 theme = "elate"
 
@@ -18,7 +19,7 @@ theme = "elate"
 # Siga bota lá tratar da página
 [params]
   # Custom css
-  custom_css = ["css/custom1.css", "css/custom2.css"]
+  custom_css = ["/css/custom1.css", "/css/custom2.css"]
 
   # Meta
   author = ""
@@ -149,29 +150,29 @@ theme = "elate"
 
 
   # Services section
-  # [params.services]
-  #   enable = true
-  #   title = "Services"
-  #   description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  #
-  #   [[params.services.item]]
-  #     title = "Física Fora da Academia"
-  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-  #     icon = "icon-anchor"
-  #
-  #   [[params.services.item]]
-  #     title = "Workshops"
-  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-  #     icon = "icon-layers2"
-  #   [[params.services.item]]
-  #     title = "Mentores"
-  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-  #     icon = "icon-video2"
-  #
-  #     [[params.services.item]]
-  #     title = "CMS &amp; eCommerce"
-  #     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-  #     icon = "icon-monitor"
+   [params.services]
+     enable = true
+     title = "Services"
+     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+  
+     [[params.services.item]]
+       title = "Física Fora da Academia"
+       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+       icon = "icon-anchor"
+  
+     [[params.services.item]]
+       title = "Workshops"
+       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+       icon = "icon-layers2"
+     [[params.services.item]]
+       title = "Mentores"
+       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+       icon = "icon-video2"
+  
+       [[params.services.item]]
+       title = "CMS &amp; eCommerce"
+       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+       icon = "icon-monitor"
 
 
   # Pessoas
@@ -366,7 +367,7 @@ theme = "elate"
       description = "Sócios"
       icon = "icon-heart"
       from = 0
-      to = 5
+      to = 9000
       interval = 50
       speed = 1000
 
