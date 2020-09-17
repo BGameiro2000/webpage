@@ -2,8 +2,7 @@
 # - Available icons: https://simplelineicons.github.io/
 # - fazer varias about section para cada departamento: direcao, conselho fiscal, assembleia geral, pedagogico, recreativo, imagem - ta separado por comentarios
 # - pessoas tao todas em cima uma das outras n sei pq
-# - links no copyright la em baixo na funcionam
-# - nao sei mudar a localizacao no mapa
+# - enviar uma mensagem email a partir dos contactos para confirmar q funciona
 
 
 # Geral
@@ -29,25 +28,37 @@ theme = "elate"
   # Navegação
   [params.navigation]
     brand = "NFEF"
-    home = "Home"
-    work = "Eventos"
-    testimonials = "Testimonials"
-    services = "Services"
-    about = "Pessoas"
+    #home = "Home"
+    #work = "Eventos"
+    #testimonials = "Testimonials"
+    #services = "Services"
+    #about = "Pessoas"
     #counters = "Estatísticas"
-    contact = "Contactos"
-
-    # You can add custom links before or after the default links
-    # Assign a weight to define the order
+    #contact = "Contactos"
 
     # prepended links
-    #[[menu.prepend]]
-    #  url = "http://gohugo.io"
-    #  name = "Hugo"
-    #  weight = 10
+    [[menu.prepend]]
+      url = "/"
+      name = "Início"
+      weight = 1
+
+    [[menu.prepend]]
+      url = "/page/events"
+      name = "Eventos"
+      weight = 2
+
+    [[menu.prepend]]
+      url = "/page/team"
+      name = "Quem Somos?"
+      weight = 3
+
+    [[menu.prepend]]
+      url = "/page/contact"
+      name = "Contactos"
+      weight = 4
 
     # postpended links
-    #[[menu.postpend]]
+    # [[menu.postpend]]
     #  url = "http://gohugo.io"
     #  name = "External link"
     #  weight = 10
@@ -64,7 +75,7 @@ theme = "elate"
   [[params.intro.item]]
     title = "Quem somos?"
     description = "O NFEF-FCUL é o núcleo de estudantes de Física e Engenharia Física da FCUL. Vem conheçer o teu núcleo!"
-    url = "#"
+    url = "/page/team"
     button = "Pessoas"
     icon = "icon-people"
     img = "img_7.jpg"
@@ -80,7 +91,7 @@ theme = "elate"
   [[params.intro.item]]
     title = "Eventos"
     description = "Conheçe todos os eventos dinamizados pelo teu núcleo e entidades associadas, as edições futuras e passadas."
-    url = "#"
+    url = "/page/events"
     button = "Eventos"
     icon = "icon-calendar"
     img = "img_10.jpg"
@@ -161,7 +172,7 @@ theme = "elate"
       img = "ffa.jpg"
       alt = "Image2"
       title = "Física Fora da Academia"
-      subtitle = "Vem ver o que fazem os Físicos fora das universidades!"
+      subtitle = "Vem ver o que fazem os Físicos e Engenheiros Físicos fazem na industria."
 
     [[params.work.row]]
       img = "trivia.png"
