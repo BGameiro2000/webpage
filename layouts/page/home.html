@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+{{ partial "intro.html" .}}
+
 {{ if .Site.Params.work.enable }}
     {{ partial "work.html" .}}
 {{ end }}
