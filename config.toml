@@ -1,12 +1,9 @@
 ## NOTAS DO ZÉ:
-# - tenho que cortar as imagens nos projetos para encaixarem lado a lado (nfef trivia)
 # - Available icons: https://simplelineicons.github.io/
 # - fazer varias about section para cada departamento: direcao, conselho fiscal, assembleia geral, pedagogico, recreativo, imagem - ta separado por comentarios
 # - pessoas tao todas em cima uma das outras n sei pq
 # - links no copyright la em baixo na funcionam
 # - nao sei mudar a localizacao no mapa
-# - ja assumi que o email do nucleo era nfef@fc.ul.pt
-# - qual a sala do nucleo pa meter nos contacts
 
 
 # Geral
@@ -38,7 +35,7 @@ theme = "elate"
     #testimonials = "Testimonials"
     #services = "Services"
     about = "Pessoas"
-    counters = "Estatísticas"
+    #counters = "Estatísticas"
     contact = "Contactos"
 
     # You can add custom links before or after the default links
@@ -83,12 +80,68 @@ theme = "elate"
 
   [[params.intro.item]]
     title = "Eventos"
-    description = "Conheçe os próximos eventos organizados pelo núcleo e entidades associadas, ou então vê os eventos passados."
+    description = "Conheçe todos os eventos dinamizados pelo teu núcleo e entidades associadas, as edições futuras e passadas."
     url = "#"
     button = "Eventos"
     icon = "icon-calendar"
     img = "img_10.jpg"
 
+  # Services
+  [params.services]
+    enable = true
+    title = "O que fazemos?"
+    description = "Ficam aqui algumas das atividades dinamizadas pelo teu núcleo."
+
+    [[params.services.item]]
+      title = "Física Fora da Academia"
+      description = "Estás num curso de Física, e agora? Numa maratona de palestras vem descobrir tudo aquilo que é feito por antigos alunos dos cursos de Física e Engenharia Física que hoje trabalham na indústria, fora do meio académico e da investigação científica."
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Workshops"
+      description = ""
+      icon = "icon-layers2"
+
+    [[params.services.item]]
+      title = "Programa de Mentores"
+      description = ""
+      icon = "icon-video2"
+
+    [[params.services.item]]
+      title = "Convívio"
+      description = ""
+      icon = "icon-monitor"
+
+
+  # Counters
+  [params.counters]
+    enable = true
+    title = "Quantos somos?"
+    background = "quadro_fisica.jpg"
+
+    [[params.counters.item]]
+      description = "Estudantes"
+      icon = "icon-graduation"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 1000
+
+    [[params.counters.item]]
+      description = "Membros"
+      icon = "icon-people"
+      from = 0
+      to = 22
+      interval = 50
+      speed = 1000
+
+    [[params.counters.item]]
+      description = "Sócios"
+      icon = "icon-heart"
+      from = 0
+      to = 9000
+      interval = 50
+      speed = 1000
 
   # Video Section
   #[params.intro.video]
@@ -98,7 +151,7 @@ theme = "elate"
   #  url = ""
 
 
-  # Eventos
+  # Work
   [params.work]
     enable = true
     title = "Eventos"
@@ -124,7 +177,7 @@ theme = "elate"
       subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
 
 
-  # Testemunhos
+  # Testimonials
   #[params.testimonials]
   #  enable = true
   #  title = "Testimonials"
@@ -149,33 +202,7 @@ theme = "elate"
   #    alt = "Person3"
 
 
-  # Services section
-   [params.services]
-     enable = true
-     title = "Services"
-     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-  
-     [[params.services.item]]
-       title = "Física Fora da Academia"
-       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-       icon = "icon-anchor"
-  
-     [[params.services.item]]
-       title = "Workshops"
-       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-       icon = "icon-layers2"
-     [[params.services.item]]
-       title = "Mentores"
-       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-       icon = "icon-video2"
-  
-       [[params.services.item]]
-       title = "CMS &amp; eCommerce"
-       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
-       icon = "icon-monitor"
-
-
-  # Pessoas
+  # About
   [params.about]
     enable = true
     title = "Pessoas"
@@ -341,37 +368,8 @@ theme = "elate"
       img = "person1.jpg"
       social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
 
-  # Estatísticas
-  [params.counters]
-    enable = true
-    title = "Estatísticas"
-    background = "full_image_1.jpg"
 
-    [[params.counters.item]]
-      description = "Estudantes"
-      icon = "icon-graduation"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 1000
-
-    [[params.counters.item]]
-      description = "Membros"
-      icon = "icon-people"
-      from = 0
-      to = 22
-      interval = 50
-      speed = 1000
-
-    [[params.counters.item]]
-      description = "Sócios"
-      icon = "icon-heart"
-      from = 0
-      to = 9000
-      interval = 50
-      speed = 1000
-
-  # Contact section
+  # Contacts
   [params.contact]
     enable = true
     map = false
