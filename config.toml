@@ -29,14 +29,13 @@ theme = "elate"
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
 
-
   # Navegação
   [params.navigation]
     brand = "NFEF"
-    #home = "Home"
+    home = "Home"
     work = "Eventos"
-    #testimonials = "Testimonials"
-    #services = "Services"
+    testimonials = "Testimonials"
+    services = "Services"
     about = "Pessoas"
     counters = "Estatísticas"
     contact = "Contactos"
