@@ -1,8 +1,6 @@
 {{ define "main" }}
 
 {{ if .Site.Params.about.enable }}
-    {{ partial "head.html" .}}
-    {{ partial "nav.html" .}}
     {{ partial "about.html" .}}
 {{ end }}
 
