@@ -42,12 +42,6 @@ theme = "elate"
       name = "Eventos"
       weight = 1
 
-    # prepended links
-    [[menu.prepend]]
-      url = "https://discord.io/nfef"
-      name = "Discord"
-      weight = 2
-
     [[menu.prepend]]
       url = "https://200819jkpohzg7m4mku.nextcloud.hosting.zone/s/ScroLsZRG7W5W7b"
       name = "Banco de Apontamentos"
@@ -87,19 +81,19 @@ theme = "elate"
     img = "bg.jpg"
 
   [[params.intro.item]]
-    title = "Recursos"
-    description = "Aqui encontras todos os recursos que vão complementar o teu estudo durante toda a tua formação universitária."
-    url = "#"
-    button = "Recursos"
-    icon = "icon-vector"
-    img = "bg.jpg"
-
-  [[params.intro.item]]
     title = "Eventos"
-    description = "Conheçe todos os eventos dinamizados pelo teu núcleo e entidades associadas, as edições futuras e passadas."
+    description = "Conheçe todos os eventos dinamizados pelo teu núcleo. De workshops a convívios, não percas estas oportunidades!"
     url = "/page/events"
     button = "Eventos"
     icon = "icon-calendar"
+    img = "bg.jpg"
+
+  [[params.intro.item]]
+    title = "Queres falar connosco?"
+    description = "E-mail, redes sociais e até o um canal de Discord onde podes comunicar livremente connosco e com os teus colegas!"
+    url = "/page/"
+    button = "Contactos"
+    icon = "icon-envelope"
     img = "bg.jpg"
 
   # Services
@@ -133,7 +127,7 @@ theme = "elate"
   [params.counters]
     enable = true
     title = "Quantos somos?"
-    background = "quadro_fisica.jpg"
+    #background = "quadro_fisica.jpg"
 
     [[params.counters.item]]
       description = "Estudantes"
@@ -391,11 +385,14 @@ theme = "elate"
     map = false
     form = true
     title = "Contactos"
-    description = "Dúvidas? Sugestões? Envia-nos um e-mail!"
+    description = ""
 
     details = [
         ["icon-home", "Edíficio C8 Piso 4 Sala 17, 1749-016 Campo Grande, Lisboa, Portugal"],
         ["icon-envelope", "nfef@fc.ul.pt"],
+        ["icon-facebook", "https://www.facebook.com/NFEFFCUL/"],
+        ["icon-instagram", "https://www.instagram.com/nfeffcul/"],
+        ["icon-linkedin", "https://www.linkedin.com/company/nfef-fcul/"],
       ]
 
     name = "Nome"

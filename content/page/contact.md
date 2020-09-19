@@ -1,6 +1,6 @@
 ---
 title: Contactos
-description: subtitle
+description:
 type: page
 layout: contact
 ---
