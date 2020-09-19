@@ -46,7 +46,7 @@ theme = "elate"
       url = "https://discord.io/nfef"
       name = "Discord"
       weight = 2
-      
+
     [[menu.prepend]]
       url = "https://200819jkpohzg7m4mku.nextcloud.hosting.zone/s/ScroLsZRG7W5W7b"
       name = "Banco de Apontamentos"
@@ -229,56 +229,56 @@ theme = "elate"
       position = "Secretária"
       #description = ""
       img = "person1.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Rafael Pinto"
       position = "Tesoureiro"
       #description = ""
       img = "person2.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Rita Reis"
       position = "Coordenadora do Pedagógico"
       #description = ""
       img = "person3.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Miguel Pinto"
       position = "Vogal do Pedagógico"
       #description = ""
       img = "person1.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "João Neves"
       position = "Coordenador da Imagem/Divulgação"
       #description = ""
       img = "person2.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Ariana Dias"
       position = "Vogal da Imagem/Divulgação"
       #description = ""
       img = "person3.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Ana Benquerença"
       position = "Coordenador do Recreativo"
       #description = ""
       img = "person1.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Constança Freire"
       position = "Vogal do Recreativo"
       #description = ""
       img = "person2.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     # conselho fiscal
     [[params.about.item]]
@@ -286,21 +286,21 @@ theme = "elate"
       position = "Presidente do Fiscal"
       #description = ""
       img = "person3.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Sílvia Costa"
       position = "Vice-Presidente do Fiscal"
       #description = ""
       img = "person1.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Gonçalo Fernandes"
       position = "Secretário do Fiscal"
       #description = ""
       img = "person2.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     # assembeleia geral
     [[params.about.item]]
@@ -308,21 +308,21 @@ theme = "elate"
       position = "Presidente da Mesa"
       #description = ""
       img = "person3.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Inês Caipiro"
       position = "Vice-Presidente da Mesa"
       #description = ""
       img = "person1.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Diogo Matos"
       position = "Vogal da Mesa"
       #description = ""
       img = "person2.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     # pedagogico
     [[params.about.item]]
@@ -330,28 +330,28 @@ theme = "elate"
       #position = ""
       #description = ""
       img = "person3.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Rodrigo Lopes"
       #position = ""
       #description = ""
       img = "person1.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Bernardo Gameiro"
       #position = ""
       #description = ""
       img = "person2.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Eduardo Batista"
       #position = ""
       #description = ""
       img = "person3.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     # recreativo
     [[params.about.item]]
@@ -359,7 +359,7 @@ theme = "elate"
       #position = ""
       #description = ""
       img = "person1.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     # imagem
     [[params.about.item]]
@@ -367,21 +367,21 @@ theme = "elate"
       #position = ""
       #description = ""
       img = "person2.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "José Ferreira"
       #position = ""
       #description = ""
       img = "person3.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
     [[params.about.item]]
       name = "Ricardo Honório"
       #position = ""
       #description = ""
       img = "person1.jpg"
-      social = [["icon-twitter", "#"], ["icon-facebook", "#"], ["icon-linkedin", "#"]]
+      social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
 
   # Contacts
