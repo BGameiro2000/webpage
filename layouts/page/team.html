@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+{{ partial "hero.html" .}}
+
 {{ if .Site.Params.about.enable }}
     {{ partial "about.html" .}}
 {{ end }}
