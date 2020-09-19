@@ -42,6 +42,7 @@ theme = "elate"
       name = "Eventos"
       weight = 1
 
+    # prepended links
     [[menu.prepend]]
       url = "https://discord.io/nfef"
       name = "Discord"
