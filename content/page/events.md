@@ -1,6 +1,6 @@
 ---
 title: Eventos
-description: subtitle
+description: 
 type: page
 layout: events
 ---

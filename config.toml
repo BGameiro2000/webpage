@@ -38,24 +38,29 @@ theme = "elate"
 
     # prepended links
     [[menu.prepend]]
-      url = "/"
-      name = "Início"
+      url = "/page/events"
+      name = "Eventos"
       weight = 1
 
     [[menu.prepend]]
-      url = "/page/events"
-      name = "Eventos"
+      url = "https://discord.io/nfef"
+      name = "Discord"
       weight = 2
+      
+    [[menu.prepend]]
+      url = "https://200819jkpohzg7m4mku.nextcloud.hosting.zone/s/ScroLsZRG7W5W7b"
+      name = "Banco de Apontamentos"
+      weight = 3
 
     [[menu.prepend]]
       url = "/page/team"
       name = "Pessoas"
-      weight = 3
+      weight = 4
 
     [[menu.prepend]]
       url = "/page/contact"
       name = "Contactos"
-      weight = 4
+      weight = 5
 
     # postpended links
     # [[menu.postpend]]

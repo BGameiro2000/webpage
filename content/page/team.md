@@ -1,6 +1,6 @@
 ---
-title: Equipa
-description: subtitle
+title: Pessoas
+description: 
 type: page
 layout: team
 ---
