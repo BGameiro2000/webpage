@@ -20,7 +20,7 @@ theme = "elate"
   # Meta
   author = ""
   description = ""
-  email = "nfef@fc.ul.pt"
+  email = "nfef-fcul@fc.ul.pt"
 
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
@@ -391,7 +391,7 @@ theme = "elate"
 
     details = [
         ["icon-home", "Edíficio C8 Piso 4 Sala 17, 1749-016 Campo Grande, Lisboa, Portugal"],
-        ["icon-envelope", "nfef@fc.ul.pt"],
+        ["icon-envelope", "nfef-fcul@fc.ul.pt"],
         ["icon-facebook", "https://www.facebook.com/NFEFFCUL/"],
         ["icon-instagram", "https://www.instagram.com/nfeffcul/"],
         ["icon-linkedin", "https://www.linkedin.com/company/nfef-fcul/"],
