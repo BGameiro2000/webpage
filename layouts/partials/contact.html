@@ -1,5 +1,6 @@
 	<section id="fh5co-contact" data-section="contact">
 		<div class="container">
+			{{ if .IsHome }}
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
 					<h2 class="to-animate">{{ with .Site.Params.contact.title }}{{ . | markdownify }}{{ end }}</h2>
@@ -10,6 +11,7 @@
 					</div>
 				</div>
 			</div>
+			{{ end }}
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-6 to-animate">
 					<h3>{{ with .Site.Params.contact.info }}{{ . | markdownify }}{{ end }}</h3>

@@ -167,6 +167,8 @@ theme = "elate"
     title = "Eventos"
     description = "Apresentamos aqui todos os eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
     #footertext = ""
+    titleNext = "Próximos eventos"
+    descriptionNext = "Os próximos eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
 
     [[params.work.row]]
       img = "ffa.jpg"
