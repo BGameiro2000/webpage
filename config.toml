@@ -1,8 +1,4 @@
-## NOTAS DO ZÉ:
 # - Available icons: https://simplelineicons.github.io/
-# - fazer varias about section para cada departamento: direcao, conselho fiscal, assembleia geral, pedagogico, recreativo, imagem - ta separado por comentarios
-# - pessoas tao todas em cima uma das outras n sei pq
-# - enviar uma mensagem email a partir dos contactos para confirmar q funciona
 
 
 # Geral
@@ -214,7 +210,7 @@ theme = "elate"
       alt = "Image4"
       title = "Banco de Apontamentos"
       subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
-    
+
     [[params.iniciativas.row]]
       img = "churrasco.jpg"
       alt = "Image4"
@@ -428,6 +424,7 @@ theme = "elate"
         ["icon-facebook", "https://www.facebook.com/NFEFFCUL/"],
         ["icon-instagram", "https://www.instagram.com/nfeffcul/"],
         ["icon-linkedin", "https://www.linkedin.com/company/nfef-fcul/"],
+        ["icon-github", "https://github.com/NFEF-FCUL"],
       ]
 
     name = "Nome"
@@ -439,7 +436,7 @@ theme = "elate"
   # Footer section
   [params.footer]
     enable = true
-    copyright = ''
+    copyright = "Página feita com Hugo, baseado no tema Elate. Código disponível na nossa página do Github"
     links = [
         ["icon-facebook", "https://www.facebook.com/NFEFFCUL/"],
         ["icon-instagram", "https://www.instagram.com/nfeffcul/"],
