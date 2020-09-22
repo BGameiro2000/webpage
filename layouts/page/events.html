@@ -6,4 +6,8 @@
     {{ partial "work.html" .}}
 {{ end }}
 
+{{ if .Site.Params.iniciativas.enable }}
+    {{ partial "iniciativas.html" .}}
+{{ end }}
+
 {{ end }}

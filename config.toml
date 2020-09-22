@@ -29,7 +29,7 @@ theme = "elate"
   [params.navigation]
     brand = "NFEF"
     #home = "Home"
-    #work = "Eventos"
+    #work = "Iniciativas"
     #testimonials = "Testimonials"
     #services = "Services"
     #about = "Pessoas"
@@ -39,7 +39,7 @@ theme = "elate"
     # prepended links
     [[menu.prepend]]
       url = "/page/events"
-      name = "Eventos"
+      name = "Iniciativas"
       weight = 1
 
     [[menu.prepend]]
@@ -186,6 +186,39 @@ theme = "elate"
       img = "churrasco.jpg"
       alt = "Image4"
       title = "Churrasco"
+      subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
+
+  # Work
+  [params.iniciativas]
+    enable = true
+    title = "Iniciativas"
+    description = "Apresentamos aqui todos os eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
+    #footertext = ""
+    titleNext = "Próximos eventos"
+    descriptionNext = "Os próximos eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
+
+    [[params.iniciativas.row]]
+      img = "ffa.jpg"
+      alt = "Image2"
+      title = "Física Fora da Academia"
+      subtitle = "Vem ver o que fazem os Físicos e Engenheiros Físicos fazem na industria."
+
+    [[params.iniciativas.row]]
+      img = "trivia.png"
+      alt = "Image3"
+      title = "Programa de Mentorandos"
+      subtitle = "Desafios para além dos problemas apresentados na faculdade."
+
+    [[params.iniciativas.row]]
+      img = "churrasco.jpg"
+      alt = "Image4"
+      title = "Banco de Apontamentos"
+      subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
+    
+    [[params.iniciativas.row]]
+      img = "churrasco.jpg"
+      alt = "Image4"
+      title = "Workshops"
       subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
 
 
