@@ -1,19 +1,17 @@
 # - Available icons: https://simplelineicons.github.io/
 
 
-# Geral
 title = "NFEF-FCUL"
 baseurl = "/"
 languageCode = "pt-pt"
 theme = "elate"
 
 
-# Siga bota lá tratar da página
 [params]
-  # Custom css
+  # custom css
   custom_css = ["/css/custom1.css", "/css/custom2.css"]
 
-  # Meta
+  # meta
   author = ""
   description = ""
   email = "nfef-fcul@fc.ul.pt"
@@ -21,7 +19,7 @@ theme = "elate"
   # Google Maps Javascript API Key (if not set will default to not passing a key)
   googleMapsApiKey = ""
 
-  # Navegação
+  # navegação
   [params.navigation]
     brand = "NFEF"
     #home = "Home"
@@ -60,13 +58,13 @@ theme = "elate"
     #  weight = 10
 
 
-  # Hero
+  # hero
   [params.hero]
     title = "Núcleo de Física e Engenharia Física"
     subtitle = 'Faculdade de Ciências, Universidade de Lisboa'
 
 
-  # Intro
+  # intro
   [params.intro]
   [[params.intro.item]]
     title = "Quem somos?"
@@ -92,7 +90,8 @@ theme = "elate"
     icon = "icon-envelope"
     img = "bg.jpg"
 
-  # Services
+
+  # o que fazemos?
   [params.services]
     enable = true
     title = "O que fazemos?"
@@ -100,26 +99,26 @@ theme = "elate"
 
     [[params.services.item]]
       title = "Física Fora da Academia"
-      description = "Estás num curso de Física, e agora? Numa maratona de palestras vem descobrir tudo o que fazem os antigos alunos dos cursos de Física e Engenharia Física que hoje trabalham na indústria. Visita a página eventos para saberes mais!"
+      description = "Estás num curso de Física, e agora? Numa maratona de palestras vem descobrir tudo o que fazem os antigos alunos dos cursos de Física e Engenharia Física que hoje trabalham na indústria. Visita a página 'iniciativas' para saberes mais!"
       icon = "icon-people"
 
     [[params.services.item]]
       title = "Workshops"
-      description = "A faculdade dá-te as hard skills que precisas para o teu futuro, porque não investires o teu tempo a treinar as tuas soft skills também? O teu núcleo disponibiliza vários workshop ao longo do ano, visita a página eventos para mais informação!"
+      description = "A faculdade dá-te as hard skills que precisas para o teu futuro, porque não investires o teu tempo a treinar as tuas soft skills também? O teu núcleo disponibiliza vários workshop ao longo do ano, visita a página 'iniciativas' para mais informação!"
       icon = "icon-wrench"
 
     [[params.services.item]]
       title = "Programa de Mentores"
-      description = "Vai começar uma nova etapada da tua vida, com novos desafios, pessoas e experiências. Porquê não pedir uma ajuda para te guiar nestes novos caminhos? Com o Programa de Mentores cada aluno do 1º ano pode ter o seu próprio mentor para ajudar tanto nas aulas como na integração no meio académico."
+      description = "Vai começar uma nova etapa da tua vida, com novos desafios, pessoas e experiências. Porquê não pedir uma ajuda para te guiar nestes novos caminhos? Com o Programa de Mentores cada aluno do 1º ano pode ter o seu próprio mentor para ajudar tanto nas aulas como na integração no meio académico."
       icon = "icon-graduation"
 
     [[params.services.item]]
       title = "Convívio"
-      description = "Depois de todo o esforço feito dentro e fora de aulas podes usufruir de vários momentos de convivio organizados pelo teu núcleo. Desde a churrascos até noites que Quizzes visita a página dos eventos para descobrir quando e onde é o próximo evento!"
+      description = "Depois de todo o esforço feito dentro e fora de aulas podes agora usufruir de vários momentos de convivio organizados pelo teu núcleo, aberto para todos os interessados. Desde a churrascos até noites que Quizzes visita a página 'iniciativas' para descobrir quando e onde é o próximo evento!"
       icon = "icon-bubbles"
 
 
-  # Counters
+  # quantos somos?
   [params.counters]
     enable = true
     title = "Quantos somos?"
@@ -149,7 +148,8 @@ theme = "elate"
       interval = 50
       speed = 1000
 
-  # Video Section
+
+  # video
   #[params.intro.video]
   #  enable = true
   #  title = "Watch the video"
@@ -157,68 +157,71 @@ theme = "elate"
   #  url = ""
 
 
-  # Work
+  # proximos eventos
   [params.work]
     enable = true
-    title = "Eventos"
-    description = "Apresentamos aqui todos os eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
-    #footertext = ""
     titleNext = "Próximos eventos"
     descriptionNext = "Os próximos eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
+    #footertext = ""
 
     [[params.work.row]]
       img = "ffa.jpg"
       alt = "Image2"
       title = "Física Fora da Academia"
-      subtitle = "Vem ver o que fazem os Físicos e Engenheiros Físicos fazem na industria."
-
-    [[params.work.row]]
-      img = "trivia.png"
-      alt = "Image3"
-      title = "NFEF Trivia"
-      subtitle = "Desafios para além dos problemas apresentados na faculdade."
+      subtitle = "Dia 45 de Setembro de 2049"
 
     [[params.work.row]]
       img = "churrasco.jpg"
       alt = "Image4"
       title = "Churrasco"
-      subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
+      subtitle = "Dia 32 de Novembro de 2069"
 
-  # Work
+
+  # iniciativas
   [params.iniciativas]
     enable = true
     title = "Iniciativas"
     description = "Apresentamos aqui todos os eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
     #footertext = ""
-    titleNext = "Próximos eventos"
-    descriptionNext = "Os próximos eventos dinamizados pelo teu núcleo para toda a comunidade estudantil"
 
     [[params.iniciativas.row]]
       img = "ffa.jpg"
       alt = "Image2"
       title = "Física Fora da Academia"
-      subtitle = "Vem ver o que fazem os Físicos e Engenheiros Físicos fazem na industria."
+      subtitle = "Descobre o que os nossos ex-alunos fazem na industria"
+
+    [[params.iniciativas.row]]
+      img = "placeholder.png"
+      alt = "Image3"
+      title = "Programa de Mentorandos"
+      subtitle = "Alguém para te ajudar no início da tua vida académica"
 
     [[params.iniciativas.row]]
       img = "trivia.png"
       alt = "Image3"
-      title = "Programa de Mentorandos"
-      subtitle = "Desafios para além dos problemas apresentados na faculdade."
+      title = "NFEF Trivia"
+      subtitle = "Desafios para além dos desafios das aulas"
 
     [[params.iniciativas.row]]
-      img = "churrasco.jpg"
+      img = "placeholder.png"
       alt = "Image4"
       title = "Banco de Apontamentos"
-      subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
+      subtitle = "Todo o material complementar necessário para o teu estudo"
+
+    [[params.iniciativas.row]]
+      img = "placeholder.png"
+      alt = "Image4"
+      title = "Workshops"
+      subtitle = "Uma série de workshops para complementares a tua formação"
 
     [[params.iniciativas.row]]
       img = "churrasco.jpg"
       alt = "Image4"
-      title = "Workshops"
-      subtitle = "O teu núcleo está a preparar um mega churrasco para fugires dos trabalhos."
+      title = "Churrasco"
+      subtitle = "Uma pausa de todos os trabalhos da faculdade"
 
 
-  # Testimonials
+  # testimonials
   #[params.testimonials]
   #  enable = true
   #  title = "Testimonials"
@@ -243,7 +246,7 @@ theme = "elate"
   #    alt = "Person3"
 
 
-  # About
+  # pessoas
   [params.about]
     enable = true
     title = "Pessoas"
@@ -410,7 +413,7 @@ theme = "elate"
       social = [["icon-globe", "https://example.com"], ["icon-envelope", "mailto:john@example.com"], ["icon-linkedin", "https://www.linkedin.com/in/example/"], ["icon-github", "https://github.com/example"]]
 
 
-  # Contacts
+  # Contactos
   [params.contact]
     enable = true
     map = false
