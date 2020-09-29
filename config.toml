@@ -439,7 +439,7 @@ theme = "elate"
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Página feita com Hugo, baseado no tema Elate. Código disponível na nossa página do Github"
+    copyright = "Página feita com Hugo, baseado no tema Elate. Código disponível na nossa página do Github."
     links = [
         ["icon-facebook", "https://www.facebook.com/NFEFFCUL/"],
         ["icon-instagram", "https://www.instagram.com/nfeffcul/"],
