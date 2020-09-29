@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+#team.flex-container div{
+    width: 300px;
+    height: 250px;
+    margin: 16px;
+    margin-top: 64px;
+}
+
+.flex-container-row{
+  flex-flow: row wrap;
+}
+
+.flex-container-column{
+  flex-flow: column wrap;
+}
+
+.box-relative{
+  position: relative;
+}
+
+.box-absolute{
+  position: absolute;
+  bottom: 16px;
+  right: 0px;
+}
