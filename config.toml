@@ -176,6 +176,12 @@ theme = "elate"
       title = "Churrasco"
       subtitle = "Dia 32 de Novembro de 2069"
 
+    [[params.work.row]]
+      img = "churrasco.jpg"
+      alt = "Image4"
+      title = "Churrascod"
+      subtitle = "Dia 32 de Novembro de 2069"
+
 
   # iniciativas
   [params.iniciativas]
@@ -188,38 +194,49 @@ theme = "elate"
       img = "ffa.jpg"
       alt = "Image2"
       title = "Física Fora da Academia"
-      subtitle = "Descobre o que os nossos ex-alunos fazem na industria"
+      subtitle = "Interessado numa carreira na industria? Este evento é para ti!"
 
     [[params.iniciativas.row]]
       img = "placeholder.png"
       alt = "Image3"
       title = "Programa de Mentorandos"
-      subtitle = "Alguém para te ajudar no início da tua vida académica"
+      subtitle = "Alguém para te ajudar no início da tua vida académica."
+
+    [[params.iniciativas.row]]
+      img = "churrasco.jpg"
+      alt = "Image4"
+      title = "Banco de Apontamentos"
+      subtitle = "Uma pausa de todos os trabalhos da faculdade"
+
+    [[params.iniciativas.row]]
+      img = "placeholder.png"
+      alt = "Image4"
+      title = "Workshops"
+      subtitle = "Todo o material complementar necessário para o teu estudo"
+
+    [[params.iniciativas.row]]
+      img = "placeholder.png"
+      alt = "Image4"
+      title = "Revista Dº"
+      subtitle = "Uma série de workshops para complementares a tua formação"
 
     [[params.iniciativas.row]]
       img = "trivia.png"
       alt = "Image3"
       title = "NFEF Trivia"
       subtitle = "Desafios para além dos desafios das aulas"
-
+    
     [[params.iniciativas.row]]
-      img = "placeholder.png"
+      img = "churrasco.jpg"
       alt = "Image4"
-      title = "Banco de Apontamentos"
-      subtitle = "Todo o material complementar necessário para o teu estudo"
-
-    [[params.iniciativas.row]]
-      img = "placeholder.png"
-      alt = "Image4"
-      title = "Workshops"
-      subtitle = "Uma série de workshops para complementares a tua formação"
+      title = "Notas Comunitárias"
+      subtitle = "Uma pausa de todos os trabalhos da faculdade"
 
     [[params.iniciativas.row]]
       img = "churrasco.jpg"
       alt = "Image4"
-      title = "Churrasco"
+      title = "Discord"
       subtitle = "Uma pausa de todos os trabalhos da faculdade"
-
 
   # testimonials
   #[params.testimonials]
