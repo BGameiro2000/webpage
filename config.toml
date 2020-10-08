@@ -31,22 +31,22 @@ theme = "elate"
     #contact = "Contactos"
 
     # prepended links
-    [[menu.prepend]]
-      url = "/page/events"
-      name = "Iniciativas"
-      weight = 1
+    #[[menu.postpend]]
+    #  url = "/page/events"
+    #  name = "Iniciativas"
+    #  weight = 1
 
-    [[menu.prepend]]
-      url = "https://200819jkpohzg7m4mku.nextcloud.hosting.zone/s/ScroLsZRG7W5W7b"
-      name = "Banco de Apontamentos"
-      weight = 3
+    #[[menu.postpend]]
+    #  url = "https://200819jkpohzg7m4mku.nextcloud.hosting.zone/s/ScroLsZRG7W5W7b"
+    #  name = "Banco de Apontamentos"
+    #  weight = 3
 
-    [[menu.prepend]]
-      url = "/page/team"
-      name = "Pessoas"
-      weight = 4
+    #[[menu.postpend]]
+    #  url = "/page/team"
+    #  name = "Pessoas"
+    #  weight = 4
 
-    [[menu.prepend]]
+    [[menu.postpend]]
       url = "/page/contact"
       name = "Contactos"
       weight = 5
@@ -61,7 +61,7 @@ theme = "elate"
   # hero
   [params.hero]
     title = "Núcleo de Física e Engenharia Física"
-    subtitle = 'Faculdade de Ciências, Universidade de Lisboa'
+    subtitle = 'Faculdade de Ciências da Universidade de Lisboa'
 
 
   # intro
